@@ -1,5 +1,5 @@
 import fuzzy
-soundex = fuzzy.Soundex(100)
+soundex = fuzzy.soundex(100)
 word=input()
 filepath=input()
 f=open(filepath,"r")
